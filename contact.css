@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #d54f4c;
+  color: #f4cc5f;
+  width: 230px;
+  font-family: "Poppins", sans-serif;
+  height: 1000px;
+}
+
+.sidebar nav {
+  padding: 35px;
+  font-size: 26px;
+}
+
+.sidebar nav ul li {
+  list-style: none;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #f4cc5f;
+}
+.sidebar nav ul li a:hover {
+  color: #ffebb4;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 85vw;
+  margin: auto;
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background-color: #000000;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  height: 1000px;
+}
+
+.contactform {
+  width: 42vw;
+  height: 73vh;
+  background-color: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid #79b1c8;
+  padding: 10px;
+  border-radius: 33px;
+}
+
+.contactform h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #79b1c8;
+}
+
+.Cnumber {
+  color: rgb(0, 0, 0);
+  display: flex;
+  margin: 25px 0;
+  border: solid #79b1c8;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(121, 177, 200, 0.5);
+}
+
+.Cnumber span {
+  font-size: 30px;
+}
+
+.Cnumber img {
+  width: 30px;
+  padding-right: 13px;
+}
+
+.Cmail {
+  color: rgb(0, 0, 0);
+  display: flex;
+  margin: 25px 0;
+  border: solid #79b1c8;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(121, 177, 200, 0.5);
+}
+
+.Cmail span {
+  font-size: 30px;
+}
+
+.Cmail img {
+  width: 30px;
+  padding-right: 13px;
+}
+
+.Clocation {
+  display: flex;
+  margin: 25px 0;
+  border: solid #79b1c8;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(121, 177, 200, 0.5);
+}
+
+.Clocation span a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.Clocation img {
+  width: 30px;
+  padding-right: 13px;
+}
+
+.Clocation:hover {
+  background-color: #79b1c8;
+  cursor: pointer;
+}
+.Cmail:hover {
+  background-color: #79b1c8;
+  cursor: pointer;
+}
+.Cnumber:hover {
+  background-color: #79b1c8;
+  cursor: pointer;
+}
